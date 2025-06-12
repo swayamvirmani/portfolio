@@ -6,13 +6,18 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Software Developer",
+          "Mern Stack",
           "Machine Learning",
-          "MERN Stack Developer",
+          "Problem Solver",
+         
+         
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 30,
+        cursor: "|",
+        wrapperClassName: "typewriter-wrapper",
+        cursorClassName: "typewriter-cursor"
       }}
     />
   );

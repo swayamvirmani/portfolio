@@ -49,7 +49,7 @@ function Footer() {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/swayam-virmani-b79973277/"
+            href="https://leetcode.com/u/swayam11/"
             style={{ color: "white", textDecoration: "none" }}
             target="_blank"
             rel="noopener noreferrer"
