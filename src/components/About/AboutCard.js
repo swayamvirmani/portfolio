@@ -11,13 +11,13 @@ function AboutCard() {
   <p className="text-justify leading-relaxed text-lg">
     Hello! I’m <span className="text-purple-400 font-semibold">Swayam Virmani</span>, a passionate tech enthusiast from <span className="text-purple-400 font-semibold">Delhi, India</span>.
     <br /><br />
-    I’m currently in my 3rd year of B.Tech in Information Technology at <span className="text-purple-400 font-semibold">Manipal University Jaipur</span>, with a CGPA of <span className="text-purple-400 font-semibold">xyz</span>.
+    I’m currently in my 3rd year of B.Tech in Information Technology at <span className="text-purple-400 font-semibold">Manipal University Jaipur</span>, with a CGPA of 8.59 <span className="text-purple-400 font-semibold"></span>.
     <br /><br />
     I’m actively learning <span className="text-purple-400 font-semibold">Computer Vision</span> and <span className="text-purple-400 font-semibold">Natural Language Processing</span>, while also strengthening my problem-solving skills through <span className="text-purple-400 font-semibold">LeetCode</span> and DSA practice.
     <br /><br />
     I’ve built projects using the <span className="text-purple-400 font-semibold">MERN Stack</span> and completed a full-stack development journey.
     <br /><br />
-    Previously, I interned as an <span className="text-purple-400 font-semibold">Android Developer</span> at <span className="text-purple-400 font-semibold">Indev Consultancy Pvt. Ltd.</span> and will soon be joining <span className="text-purple-400 font-semibold">XYZ</span> for my upcoming internship.
+    Previously, I interned as an <span className="text-purple-400 font-semibold">Android Developer</span> at <span className="text-purple-400 font-semibold">Indev Consultancy Pvt. Ltd.</span> 
   </p>
 </div>
 

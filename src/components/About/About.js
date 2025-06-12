@@ -101,11 +101,12 @@ function About() {
                 </Card.Subtitle>
                 <Card.Text>
                   <ul style={{ paddingLeft: "20px" }}>
-                    <li>Worked on a government-based mobile application using Flutter and Dart.</li>
-                    <li>Enhanced UI features — styling, responsiveness, and improved navigation.</li>
-                    <li>Resolved bugs from previous builds, fixing both functional and logical issues.</li>
+                    <li> Worked on a government-focused Android app, enhancing UI using Material Design for better accessibility and navigation by 
+                    optimizing compatibility across API levels. </li>
+                    <li>Fixed 12+ functional and logical bugs, increasing app stability by 40% and reducing crashes. </li>
+                    <li>Collaborated with developers to integrate new functionalities, improving performance and load times by 30%.</li>
                     <li>Collaborated with team members to integrate features seamlessly with REST APIs.</li>
-                    <li>Ensured app performance aligned with industry best practices and standards.</li>
+                    <li> Skills: Flutter, Dart, REST API, CSS, PHP</li>
                   </ul>
                 </Card.Text>
                 <p className="purple" style={{ marginTop: "10px" }}>
