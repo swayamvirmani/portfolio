@@ -9,7 +9,7 @@ import Particle from "../Particle";
 // import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import portf from "../../Assets/Projects/portf.png";
-import res from "../../Assets/Projects/res.png";
+import resu from "../../Assets/Projects/resu.png";
 import netflic from "../../Assets/Projects/netflic.png";
 import ha from "../../Assets/Projects/ha.png";
 import sent from "../../Assets/Projects/sent.png"
@@ -29,15 +29,39 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+              <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={resu}
+              isBlog={false}
+              title="ResuHelp"
+              description="Designed and deployed a full-stack platform using React.js and Node.js to compare and evaluate resumes with Cohere
+API, streamlining resume screening and reducing evaluation time by 85%.
+– Built intelligent PDF parsing, AI-generated feedback, and a verdict engine that provides tailored suggestions—boosting user
+clarity and engagement by 35%.
+– Launched publicly, onboarding 48+ real users and generating 135+ page views within 24 hours; received 90% positive
+feedback for accuracy and ease of use.
+– Tech Stack: React.js, JavaScript, Tailwind CSS, Node.js, Express.js, Cohere API.
+"
+              ghLink="https://github.com/swayamvirmani/ResuHelp"
+              demoLink="https://www.youtube.com/watch?v=_z4O-Q3ZMhw" 
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ha}
               isBlog={false}
               title="HackFlow"
-              description="Built a web app using React, Vite, and Tailwind CSS that can generate 1000+ hackathon ideas using Gemini API, 
-reducing manual ideation time by 90%.
- Developed user authentication system (login/logout) and a save feature, enabling users to bookmark and access up to 100 
-saved ideas. "
+              description="Built a web app using React.js, and Tailwind CSS that can generate hackathon ideas using Gemini API, reducing
+manual ideation time by 90%.
+– Implemented 5+ input parameters to deliver tailored project suggestions and AI-generated pitches.
+– Developed user authentication system (login/logout) and a save feature, enabling users to bookmark and access up to 100
+saved ideas.
+– Designed a responsive, accessible UI with a custom FAQ section, improving user retention by an estimated 30%.
+– Tech Stack: React.js, JavaScript, Tailwind CSS, Gemini API
+ "
     demoLink="https://www.youtube.com/watch?si=POU5yCbpSq6z7jB3&v=vf-MWes5VfU&feature=youtu.be" 
               ghLink="https://github.com/swayamvirmani/hackflow"
               // demoLink="https://hackflow.vercel.app/"
@@ -78,16 +102,7 @@ preprocessing. Evaluated models using precision, recall, F1-score. Tech Stack: P
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={res}
-              isBlog={false}
-              title="Resume Companion (ongoing)"
-              description="A complete end to end MERN stack web application that will allow users to upload resume to know AI based reviews on formatting, missing social links, level of projects, etc. The project would also carry a peer to peer comparision page that would allow user to end more than two resumes to compare them. Another feature would include a leadrrboard dashboard which would display top quality resumes."
-              // ghLink="https://github.com/soumyajit4419/AI_For_Social_zGood"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
